@@ -1,30 +1,121 @@
+html ,body {
+  /* background: white; */
+  font-family: Arial,Helvetica,sans-serif;
+}
+
+header, footer {
+  display: flex;
+  justify-content: center;
+ 
+}
+.name {
+  /* font-family: 'Open Sans Condensed', sans-serif; */
+  font: normal normal normal 30px/1.4em 'open sans condensed';
+  margin-bottom: 0em;
+  color:rgb(14, 6, 6);
+}
+
+ul  {
+  list-style-type: none;
+display: flex;
+justify-content: center;
+top: 0;
+padding: 0 10px;
+color: #383633;
+/* transition: color 0.4s ease 0s; */
+margin-top: 0.5em;
+}
+
+li {
+  padding: 0 12px; 
+  font-size: medium;
+  top: 0;
+}
+li a:hover {
+  color: green;
+}
+.profile-pic {
+  height: 400px;
+  width: 100%;
+  background-color: rebeccapurple;
+}
+
+
+
+.section1 {
+  position: fixed;
+width: 100%;
+top: 0;
+left: 0;
+display: flexbox;
+}
+
+ /* ul {
+  
+display: center;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}  */
+
+/* li {
+  display: flex;
+  float: left;
+  margin: 0 0 0 auto;
+} */
+
+/* li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+} */
+
+
+
+img {
+  border-radius: 50%;
+  display: block;
+	height: 300px;
+	border-radius: 50%;
+	border: solid white .5rem;
+}
+
+.section2 {
+  height: 100px;
+  color: black;
+  
+}
 
 nav ul {
-    margin: 0px;
+    /* margin: 0px; */
     padding: 5px 0px 5px 30px;
   }
 
-  nav li {
+  /* nav li {
     display: inline;
     margin-right: 20px;
-  }
+  } */
   a {
     text-decoration: none;
     color: inherit;
   }
-  body {
-    background: linear-gradient(10deg,  #CCFFFF, #FFCCCC);
-    background: url("https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png")
+  hr {
+    margin: 20px 0;
+    border-style: solid;
+    opacity: 0.1;
   }
-
+  
+/* 
 
   body {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
-  }
+  } */
   
-  @keyframes gradient {
+  /* @keyframes gradient {
     0% {
       background-position: 0% 50%;
     }
@@ -34,44 +125,17 @@ nav ul {
     100% {
       background-position: 0% 50%;
     }
-  }
+  } */
 
 
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
   
-  li {
-    float: left;
-  }
   
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
   
-  li a:hover:not(.active) {
-    background-color: #111;
-  }
   
-  .active {
-    background-color: #4CAF50;
-  }
   .section2 {
     width: 30%;
   }
 
- .img {
-   height: 30vph;
-   border-radius: 50%;
- }
  .footer {
    color: black;
    padding: 30px 30px;
