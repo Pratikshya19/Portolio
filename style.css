@@ -1,19 +1,23 @@
 html ,body {
-  /* background: white; */
+
   font-family: Arial,Helvetica,sans-serif;
 }
 
-header, footer {
+header {
   display: flex;
+
   justify-content: center;
  
 }
+
+
 .name {
-  /* font-family: 'Open Sans Condensed', sans-serif; */
   font: normal normal normal 30px/1.4em 'open sans condensed';
   margin-bottom: 0em;
   color:rgb(14, 6, 6);
 }
+
+
 
 ul  {
   list-style-type: none;
@@ -22,8 +26,9 @@ justify-content: center;
 top: 0;
 padding: 0 10px;
 color: #383633;
-/* transition: color 0.4s ease 0s; */
+
 margin-top: 0.5em;
+
 }
 
 li {
@@ -31,112 +36,60 @@ li {
   font-size: medium;
   top: 0;
 }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
 li a:hover {
   color: green;
 }
-.profile-pic {
-  height: 400px;
-  width: 100%;
-  background-color: rebeccapurple;
-}
 
-
-
-.section1 {
-  position: fixed;
-width: 100%;
-top: 0;
-left: 0;
-display: flexbox;
-}
-
- /* ul {
-  
-display: center;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}  */
-
-/* li {
+.profile-container {
+  background-color: black;
+  /* background-image: url("happy-coding.jpg"); */
   display: flex;
-  float: left;
-  margin: 0 0 0 auto;
-} */
-
-/* li a {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+.profile-pic {
+  width: 300px;
+ margin-top: 10px;
+ /* margin-bottom: 8px; */
+  border-radius:50%!important;
+  height: 300px;
+  /* justify-content: center; */
   display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-} */
-
-
-
-img {
-  border-radius: 50%;
-  display: block;
-	height: 300px;
-	border-radius: 50%;
-	border: solid white .5rem;
+}
+.title {
+  color: whitesmoke;
+font-size: 30px;
+margin-bottom: 10px;
 }
 
-.section2 {
+
+.about {
   height: 100px;
   color: black;
   
 }
 
-nav ul {
-    /* margin: 0px; */
-    padding: 5px 0px 5px 30px;
-  }
 
-  /* nav li {
-    display: inline;
-    margin-right: 20px;
-  } */
-  a {
-    text-decoration: none;
-    color: inherit;
-  }
+
+
+
+
+
+
   hr {
     margin: 20px 0;
     border-style: solid;
     opacity: 0.1;
   }
   
-/* 
 
-  body {
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-  } */
-  
-  /* @keyframes gradient {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  } */
-
-
-  
-  
-  
-  
-  .section2 {
-    width: 30%;
-  }
-
- .footer {
+ footer { 
    color: black;
    padding: 30px 30px;
  }
