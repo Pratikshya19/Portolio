@@ -44,6 +44,7 @@ li a:hover {
   color: green;
 }
 
+
 .profile-container {
   background-color: black;
   /* background-image: url("happy-coding.jpg"); */
@@ -56,10 +57,10 @@ li a:hover {
 .profile-pic {
   width: 300px;
  margin-top: 10px;
- /* margin-bottom: 8px; */
+
   border-radius:50%!important;
   height: 300px;
-  /* justify-content: center; */
+
   display: block;
 }
 .title {
@@ -77,19 +78,149 @@ margin-bottom: 10px;
 
 
 
+.projects-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	min-width: 320px;
+	align-items: center;
+	/* margin: 2rem 1rem; */
+}
+
+.project-tile-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+}
+
+.project-tile {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 1rem 0;
+	max-width: 350px;
+	background-color: rgb(63, 113, 192);
+}
 
 
 
 
 
-  hr {
-    margin: 20px 0;
-    border-style: solid;
-    opacity: 0.1;
+
+
+
+
+
+
+
+
+
+.box {
+  height: 800px;
+  margin: 10px 5px ;
+  
+  display: grid;
+  
+  background-color: antiquewhite;
+  grid-template-columns: repeat( 4, minmax(200px, 0.3fr) );
+  
   }
+
+  
+  .C1 {
+
+    background: white;
+    
+  border: solid lightskyblue;
+  
+  height: 250px;
+  width: 250px;
+  }
+.projectname {
+  text-align: center;
+  color: black;
+ font-size: 20px;
+}
+
+.demo {
+  text-align: left;
+}
+ .github {
+  text-align: right;
+}
+.links {
+  text-align: initial;
+}
+  .C2 {
+    background: white;
+    
+    height: 200px;
+  border: solid lightskyblue;
+  
+  width: 250px;
+  }
+  .C3  {
+    background: white;
+  
+  border: solid lightskyblue;
+  height: 200px;
+
+  width: 250px;
+  }
+.C4 {
+  border: solid lightskyblue;
+  height: 200px;
+}
+.C5 {
+  border: solid lightskyblue;
+  height: 200px; 
+}
+.demotag {
+  font-size: 1.2em;
+    margin-left: 20px;
+} 
+.gittag {
+  font-size: 1.2em;
+    margin-right: 10px; }
+
+
+.inline {
+  text-align: justify;
+}
+
+  .p-tag {
+    font-size: 1.2em;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    color: lightcoral;
+  }
+
+
+
+  /* hr {
+    margin: 20px 0;
+    border-style: solid;  */
+    /* opacity: 0.1;
+  } */
   
 
- footer { 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ /* footer { 
    color: black;
    padding: 30px 30px;
- }
+ } */
