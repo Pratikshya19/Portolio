@@ -1,7 +1,20 @@
+
 html ,body {
+  background-color:black;
+  overflow-x: auto;
+    width:100%;
+    /* min-width:1000px; */
+    height:auto;
+     margin: 0;
 
   font-family: Arial,Helvetica,sans-serif;
 }
+/* #fixed {
+  position: fixed;
+  align-items: center;
+} */
+
+
 
 header {
   display: flex;
@@ -9,12 +22,27 @@ header {
   justify-content: center;
  
 }
-
+.about {
+  height: 400px;
+  color: white;
+  justify-content: center;
+}
 
 .name {
+  display: flex;
   font: normal normal normal 30px/1.4em 'open sans condensed';
   margin-bottom: 0em;
-  color:rgb(14, 6, 6);
+  color:white;
+
+  justify-content: center;
+}
+.projecttitle {
+  display: flex;
+  font: normal normal normal 30px/1.4em 'open sans condensed';
+  padding-top: 20px;
+  color:black;
+
+  justify-content: center;
 }
 
 
@@ -25,7 +53,7 @@ display: flex;
 justify-content: center;
 top: 0;
 padding: 0 10px;
-color: #383633;
+color: white;
 
 margin-top: 0.5em;
 
@@ -46,7 +74,7 @@ li a:hover {
 
 
 .profile-container {
-  background-color: black;
+  background-color: white;
   
   display: flex;
   flex-direction: column;
@@ -64,29 +92,89 @@ li a:hover {
   display: block;
 }
 .title {
-  color: whitesmoke;
+  color: black;
 font-size: 30px;
 margin-bottom: 10px;
 }
 
-.about {
-  height: 100px;
-  color: black;
-  
+.projects {
+  background-color: white;
+  height: 500px;
+  margin-top: 20px;
 }
+
+
 .projects-container {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	min-width: 320px;
-	align-items: center;
-  
+  display: flex;
+ margin: 50px 10px 10px 5px ;
+ /* margin-left: 10px  */
+ 
+  justify-content: space-between;
+  flex-flow:row no-wrap;
+  flex-basis: auto;
+  /* width:100%; */
+  /* background-color: gray; */
+
+}
+#box-1 {
+ 
+  background: linear-gradient(-45deg, #788cff, #b4c8ff);
+  height: 300px;
+  width: 230px;
 }
 
-.project-tile-container {
-	display: flex;
-	flex-flow: row wrap;
-  
+#box-2 {
+  background: linear-gradient(-48deg, #788cff, #b4c8ff);
+  height: 300px;
+  width: 230px;
   
 }
-
+#box-3 {
+  background: linear-gradient(-48deg, #788cff, #b4c8ff);
+  height: 300px;
+  width: 230px;
+}
+#box-4 {
+  background: linear-gradient(-48deg, #788cff, #b4c8ff);
+  height: 300px;
+  width: 230px;
+  
+}
+#box-3 {
+  background: linear-gradient(-48deg, #788cff, #b4c8ff);
+  height: 300px;
+  width: 230px;
+}
+#box-4 {
+  background: linear-gradient(-48deg, #788cff, #b4c8ff);
+  height: 300px;
+  width: 250px;
+}
+#box-5 {
+  background: linear-gradient(-48deg, #788cff, #b4c8ff);
+  height: 300px;
+  width: 230px;
+}
+.projectname {
+  text-align: center;
+}
+.description {
+  text-align: center;
+}
+ .links{
+  text-align: center;
+  align-items: center;
+}
+ /* footer {
+  
+   margin-top: 30px;
+   padding: 20px;
+   background-color: black;
+ } */
+ hr {
+   text-decoration-color: white;
+ }
+ footer {
+   height: 100px;
+   color: white;
+ }
