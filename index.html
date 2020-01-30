@@ -6,29 +6,24 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="style.css" rel="stylesheet">
         <title>Pratikshya Pandey Portfolio</title>
-
-       
-        <header class=nav-bar>
+        <header>
 <h1 class="name">Pratikshya Pandey</h1>
 </header>
-<nav>
 
-    <div id="fixed">
-<ul class=links>
-    <li class="list"><a href="#">Home</a></li>
-    
-    <li class="list"><a href="#" target ="_blank">About</a></li>
 
-    <li class="list"><a href="https://www.linkedin.com/in/pratikshyapandey/" target="_blank">LinkedIn</a></li>
-    
+<ul>
+ <li><a href="#">Home</a></li>
+    <li><a href="#about" target ="_blank">About</a></li>
 
-        <li class="list"><a href="Resume.pdf" target ="_blank">Resume</a></li>
+ <li><a href="https://www.linkedin.com/in/pratikshyapandey/" target="_blank">LinkedIn</a></li>
+
+      <li class="list"><a href="Resume.pdf" target ="_blank">Resume</a></li>
 
         <li class="list"><a href="https://medium.com/@pratikshya.pp19" target ="_blank">Blog</a></li>
 
         <li class="list"><a href="https://github.com/Pratikshya19" target ="_blank">Github</a></li>
 </ul>
-</nav> 
+
 </div>
 
 
@@ -43,10 +38,12 @@
 </div>
 
 
-<div class="about">
+<div id="about">
     <h2 class="name">About</h2> 
-<p>I'm a full stack developer who enjoys creating applications that look great and get the job done. I love the daily challenges of being a web developer: writing quality code, learning new technologies, and solving complex problems.
-    My technical skills include but not limited to: Ruby, Rails, Sinatra, JavaScript, React, SQL, PostgreSQL, HTML5, CSS, Bootstrap, Reactstrap, Agile, Scrum  
+<p class="description1">I'm a full stack developer who enjoys creating applications that look great and gets the job done. I love the daily challenges of being a web developer: writing quality code, learning new technologies, and solving complex problems.
+My technical skills include but not limited to: Ruby, Rails, Sinatra, JavaScript, React, SQL, PostgreSQL, HTML5, CSS, Bootstrap, Reactstrap, Agile, Scrum  
+
+
     </p>
 </div>
 
@@ -56,29 +53,53 @@
     <h1 class="projecttitle">Projects</h1>
 
         <div class="projects-container">       
-        <div id="box-1">
-            <h1 class="projectname">FinePainting</h1>
-            <p class="description">Built with JS, react. .d.fas ewknhfsnlgdj akdiewifvsdngaadf sdfsaf dsfdsafdsa sdfas.</p>
-            <br>
-         <a class="links" href=""><p class="description">Youtube</p></a>
-            <br>
-            <a class="links" href=""><p class="description">Github</p></a>
-        </div>
+        
         <!-- Box1 -->
+        <div id="box-1">
+            <h1 class="projectname">Shop_Paintings</h1><hr>
+            <p class="description">A single page e-commerce web app where users can buy paintings.
+           Developed with Ruby on Rails backend,React front-end, PostgreSQL to persist all customer, items and shopping cart data. Authentication done with JWT tokens.Styling done with CSS and Bootstrap.</p>
+           
+            <a class="links" href=""><p class="links">Youtube</p></a>
+           
+            <a class="links" href=""><p class="links">Github</p></a>
+        </div>
+        
 
-        <div id="box-2">
-            <h1>ReactorNotes</h1>
+        <div id="box-1">
+            <h1 class="projectname">ReactorNotes</h1><hr>
+            <p class="description">Single page application 
+                where users can do all CRUD actions with notes.Used Ruby on Rails and SQL to connect client-server communication and persist data, React front-end to create user interface where users can create, edit, delete, search and save notes & Styling done with CSS.</p>
+            
+            <a class="links" href=""><p class="links">Youtube</p></a>
+           
+            <a class="links" href=""><p class="links">Github</p></a>
         </div>
        
-        <div id="box-3">
-            <h1>Congo</h1>
+        <div id="box-1">
+            <h1 class="projectname">Congo</h1><hr><br>
+            <p class="description">An online marketplace where customers can sell and buy items. Developed with Ruby on Rails, SQL, CSS. Used faker gem to create items for purchase. Authentication done with sessions.</p>
+           
+            <a class="links" href=""><p class="links">Youtube</p></a>
+           
+            <a class="links" href=""><p class="links">Github</p></a>
         </div>
 
-        <div id="box-4">
-            <h1>Js Drum Kit</h1>
+        <div id="box-1">
+            <h1 class="projectname">Js Drum Kit</h1><hr><br><br>
+            <p class="description">Single Page Application built with Vanilla JavaScript, HTML and CSS.</p><br>
+            
+            <a class="links" href=""><p class="links">Youtube</p></a>
+           
+            <a class="links" href=""><p class="links">Github</p></a>
         </div>
-        <div id="box-5">
-            <h1>Zodiac Signs</h1>
+        <div id="box-1">
+            <h1 class="projectname">Your Zodaic Trait</h1>
+            <hr><br><br>
+            <p class="description">My first responsive webpage project built using only HTML and CSS.</p><br>
+            <a class="links" href=""><p class="links">Youtube</p></a>
+           
+            <a class="links" href=""><p class="links">Github</p></a>
         </div>
  <!-- box-5 -->
         </div>
@@ -87,5 +108,5 @@
 <!-- projects -->
 <footer>
     <!-- <hr> -->
-   <p class="footer"> © 2020 by Pratikshya Pandey</p>
+   <p class="footertag"> © 2020 by Pratikshya Pandey</p>
 </footer>
